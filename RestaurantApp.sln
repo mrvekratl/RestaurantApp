@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApp.Web", "RestaurantApp.Web\RestaurantApp.Web.csproj", "{BAB803FD-17AD-4282-94C0-829B9C1DC2DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantApp.Web", "RestaurantApp.Web\RestaurantApp.Web.csproj", "{BAB803FD-17AD-4282-94C0-829B9C1DC2DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApp.Services", "RestaurantApp.Services\RestaurantApp.Services.csproj", "{2042E81B-F07A-412B-8291-824BFD66C67A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantApp.Services", "RestaurantApp.Services\RestaurantApp.Services.csproj", "{2042E81B-F07A-412B-8291-824BFD66C67A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApp.Data", "RestaurantApp.Data\RestaurantApp.Data.csproj", "{F070813F-CE4C-4D9C-BE64-2B18765E6B8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantApp.Data", "RestaurantApp.Data\RestaurantApp.Data.csproj", "{F070813F-CE4C-4D9C-BE64-2B18765E6B8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApp.Common", "RestaurantApp.Common\RestaurantApp.Common.csproj", "{33B7C183-1187-4418-863E-EDE0843BC321}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantApp.Common", "RestaurantApp.Common\RestaurantApp.Common.csproj", "{33B7C183-1187-4418-863E-EDE0843BC321}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

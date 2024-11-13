@@ -9,6 +9,6 @@ namespace RestaurantApp.Common.Models
 {
     public class ApplicationUser : IdentityUser
     {
-
+        public ICollection<SaleProducts> Orders { get; set; }
     }
 }
