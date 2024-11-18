@@ -12,13 +12,13 @@ namespace RestaurantApp.Services.Repositories
 {
     public class CategoryRepository : ICategoryRepository
     {
-        private ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
+
         public CategoryRepository(ApplicationDbContext context)
         {
             _context = context;
         }
-
-        public async Task<IEnumerable<Category>> GetCategoriesAsync()
+        public async Task<IEnumerable<Category>> GetAllCategoriesAsync()
         {
             return await _context.Categories.ToListAsync();
         }
@@ -42,6 +42,5 @@ namespace RestaurantApp.Services.Repositories
             _context.Categories.Remove(category);
             await _context.SaveChangesAsync();
         }
-
     }
 }

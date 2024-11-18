@@ -42,8 +42,9 @@ namespace RestaurantApp.Services.Repositories
         }
         public async Task DeleteProductAsync(int id)
         {
-            _context.Entry(id).
-
+            var product = await _context.Products.FindAsync(id);
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
         }
     }
 }

@@ -11,9 +11,8 @@ namespace RestaurantApp.Services.Interfaces
     {
         Task<IEnumerable<Category>> GetAllCategoriesAsync();
         Task<Category> GetCategoryByIdAsync(int id);
-        Task AddCategoryASync(Category category);
+        Task AddCategoryAsync(Category category);
         Task UpdateCategoryAsync(Category category);
         Task DeleteCategoryAsync(int id);
-
     }
 }
